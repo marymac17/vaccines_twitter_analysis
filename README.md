@@ -1,5 +1,7 @@
 # What does social media reveal about the world’s reaction to initial approval of a Covid-19 vaccine? 
 
+
+
 ### Machine learning project for Galvanize Data Science Immersive
 ### December 4, 2020
 ### Mary MacCarthy
