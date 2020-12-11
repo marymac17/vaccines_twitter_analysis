@@ -4,14 +4,15 @@
 ### December 4, 2020
 ### Mary MacCarthy
 
+![](images/vaccine.png)
 
 ##  Purpose of this analysis: 
 * Over the past decade, discussion of vaccines in media and on social media have focused primarily on the vaxxer/anti-vaxxer debate.
 * That debate has been sidelined by the fact that we are in a pandemic, and that much of the world is interested in developing and getting access to a specific vaccine right now (Covid-19).
 
 * I’m interested in...
-- What is the sentiment and content of current discussion of vaccines on social media?
-- Specifically, I’m looking at Twitter since  it’s used extensively by both experts and non-experts (a good way of “taking the pulse” of a population). 
+    What is the sentiment and content of current discussion of vaccines on social media?
+    Specifically, I’m looking at Twitter since it’s used extensively by both experts and non-experts (a good way of “taking the pulse” of a population). 
 
 
 ## My process: 
