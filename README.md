@@ -14,6 +14,7 @@
     What is the sentiment and content of current discussion of vaccines on social media?
     Specifically, I’m looking at Twitter since it’s used extensively by both experts and non-experts (a good way of “taking the pulse” of a population). 
 
+<img src="images/twitter%20logo.png" width="50"/>
 
 ## My process: 
 * Created my own dataset by downloading Tweets containing the keywords “vaccine” or “vaccines”, non-continuously over 72 hours , Nov. 28 - Dec 1st.
@@ -23,6 +24,7 @@ Incidentally, major news broke during this time: Pfizer announced the very first
 * Used machine learning tools to do  get a sense of the overall tone of the Tweets…
 * And to try to figure out what topics dominate the Twitter discussions/debates.
 
+<img src="images/twitter%20logo.png" width="50"/>
 
 ## Sentiment analysis: are the Tweets positive  or negative in tone? 
 * Used  Vader sentiment analysis  tool, which scored each Tweet on a scale of -1 = negative to 1 = positive  (with 0 = neutral). 
@@ -36,6 +38,8 @@ That’s a strong statement about a potential dystopian reality - not something 
         very negative  | somewhat negative  |  neutral   | somewhat positive  | positive 
 was fairly evenly balanced - the  mean was slightly on the positive side.
 
+<img src="images/twitter%20logo.png" width="50"/>
+
 
 ## I decided to move on to topic modeling, to find information beyond just a positive/negative sentiment rating... 
 * I used two unsupervised machine learning techniques to look for “latent” topics in the Tweets
@@ -44,6 +48,7 @@ was fairly evenly balanced - the  mean was slightly on the positive side.
 * Both models created lists of ten latent topics, as indicated by the top ten words in each topic..
 * For this data set, the NMF model provided more detailed and nuanced topics than the LDA model... 
 
+<img src="images/twitter%20logo.png" width="50"/>
 
 ## LDA topic selection: not helpful 
 * Examples of "top words" lists returned by LDA model: 
@@ -55,6 +60,7 @@ Top 10 words for topic #9:
 
 * These lists, and the others returned by the LDA, were largely indistinguishible from each other - making it hard to label "categorities" to any of the lists.
 
+<img src="images/twitter%20logo.png" width="50"/>
 
 ## NMF topics: provided great insights 
 * Out of ten topics returned by the NMF model, there were several clearly defined  ideas…
@@ -69,6 +75,7 @@ Top ten words: 'cdc', 'administration', 'trump administration', 'airline', 'mode
 
 * Another example: Topic 7 reveals a discussion of the Covid vaccine in relation to flu vaccine (top ten words: 'like flu', 'swine flu', 'swine', 'vaccine flu', 'vaccine year', 'flu shot', 'shot', 'year', 'flu vaccine', 'flu')
 
+<img src="images/twitter%20logo.png" width="60"/>
 
 ## Conclusion & next steps: 
 * Many further possible steps with both NMF and LDA modeling of this and similar data sets, to understand major discussions happening in our world…
@@ -76,10 +83,6 @@ Top ten words: 'cdc', 'administration', 'trump administration', 'airline', 'mode
 Top 10 words for topic #9:
 ['million people', 'don', 'vaccinated', 'die', 'million', 'want', 'think', 'vaccine people', 'people vaccine', 'people']
 * I find this topic modeling much more valuable than Twitter sentiment analysis looking at positive vs. negative sentiment, in terms of understanding the content of 180k Tweets! 
-
-
-
-
 
 
 
