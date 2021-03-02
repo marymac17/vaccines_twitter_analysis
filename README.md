@@ -19,7 +19,7 @@
 ## My process: 
 * Created my own dataset by downloading Tweets containing the keywords “vaccine” or “vaccines”, non-continuously over 72 hours , Nov. 28 - Dec 1st.
 * Total number of Tweets after eliminating non-English-language data: 179,672
-Incidentally, major news broke during this time: Pfizer announced the very first approval of a Covid-19 vaccine anywhere in the world (in the U.K.) 
+Incidentally - and serendipitously - major news broke during this time: Pfizer announced the very first approval of a Covid-19 vaccine anywhere in the world (in the U.K.) 
 * Cleaned text for NLP analysis (lemmatization, part-of-speech tagging, etc.)
 * Used machine learning tools to do  get a sense of the overall tone of the Tweets…
 * And to try to figure out what topics dominate the Twitter discussions/debates.
